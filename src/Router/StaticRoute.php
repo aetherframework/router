@@ -47,7 +47,7 @@ class StaticRoute implements RouteInterface
         if ($this->getVerb() != $request->getVerb()) {
             return false;
         }
-        return $this->getPath() == $request->getPath();
+        return $this->getPath() == trim($request->getPath(), '/');
     }
 
     /**
