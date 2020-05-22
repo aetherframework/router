@@ -9,6 +9,7 @@ use AEtherFramework\Router\Parameter;
 use AEtherFramework\Router\RegexRoute;
 use AEtherFramework\Router\RouteInterface;
 use AEtherFramework\Router\RouteNotFound;
+use AEtherFramework\Router\StaticRoute;
 
 class Router
 {
@@ -51,6 +52,9 @@ class Router
         switch ($type) {
             case "regex":
                 return new RegexRoute;
+                break;
+            case "static":
+                return new StaticRoute;
                 break;
             default:
                 throw new InvalidRouteType(sprintf(
