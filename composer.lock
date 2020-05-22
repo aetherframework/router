@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "73244936ff5f4f9fbef548cd405b777f",
+    "packages": [
+        {
+            "name": "aetherframework/base",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aetherframework/base.git",
+                "reference": "958f1d24fda3fb224b354dc89f56841fed7e7cd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aetherframework/base/zipball/958f1d24fda3fb224b354dc89f56841fed7e7cd7",
+                "reference": "958f1d24fda3fb224b354dc89f56841fed7e7cd7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AEtherFramework\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Micheal Wilkinson",
+                    "email": "aether@hrafn.xyz"
+                }
+            ],
+            "time": "2020-01-06T14:22:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
