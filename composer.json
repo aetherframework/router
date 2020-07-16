@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "aetherframework/base": "^0.0.1"
+        "aetherframework/base": "0.0.*"
     },
     "require-dev": {},
     "suggest": {},
